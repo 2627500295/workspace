@@ -1,0 +1,19 @@
+{
+  "name": "workspace",
+  "version": "0.0.1",
+  "keywords": ["yarn", "workspace", "directory"],
+  "description": "Yarn Workspace Root Directory",
+  "private": true,
+  "author": {
+    "name": "microld",
+    "email": "2627500295@qq.com",
+    "url": "http://www.qdz.me"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "workspaces": ["example"],
+  "license": "MIT"
+}

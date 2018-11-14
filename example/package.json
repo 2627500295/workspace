@@ -1,0 +1,44 @@
+{
+  "name": "elm",
+  "version": "0.0.1-preview-20181107",
+  "keywords": [],
+  "description": "elm",
+  "author": {
+    "name": "microld",
+    "email": "2627500295@qq.com",
+    "url": "http://www.qdz.me"
+  },
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dotenv": "^6.1.0",
+    "history": "^4.7.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.6.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-use": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/dotenv": "^6.1.0",
+    "@types/history": "^4.7.2",
+    "@types/node": "^10.12.2",
+    "@types/prop-types": "^15.5.6",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-router": "^4.4.0",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/rimraf": "^2.0.2",
+    "@types/webpack": "^4.4.18",
+    "cross-env": "^5.2.0",
+    "rimraf": "^2.6.2",
+    "webpack": "^4.25.1"
+  },
+  "peerDependencies": {},
+  "license": "MIT"
+}
