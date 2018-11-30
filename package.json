@@ -1,7 +1,11 @@
 {
   "name": "workspace",
   "version": "0.0.1",
-  "keywords": ["yarn", "workspace", "directory"],
+  "keywords": [
+    "yarn",
+    "workspace",
+    "directory"
+  ],
   "description": "Yarn Workspace Root Directory",
   "private": true,
   "author": {
@@ -12,8 +16,12 @@
   "main": "index.js",
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  },
   "peerDependencies": {},
-  "workspaces": ["example"],
+  "workspaces": [
+    "example"
+  ],
   "license": "MIT"
 }

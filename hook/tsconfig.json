@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    // "rootDir": "src",
+    // "outDir": "dist",
+
+    "target": "es5",
+    "module": "commonjs",
+
+    // "moduleResolution": "node",
+    "lib": [
+      "es6",
+      "dom",
+    ],
+    "jsx": "react",
+    // "forceConsistentCasingInFileNames": true,
+    // "noImplicitReturns": true,
+    // "noImplicitThis": true,
+    // "experimentalDecorators": true,
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    // "noUnusedLocals": true,
+    // "declaration": true,
+    "allowJs": true,
+
+    // 支持 ES6 导入
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    // .d.ts
+    // "typeRoots": [
+    //   "node_modules/@types",
+    //   "types"
+    // ],
+
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "*",
+      ],
+    },
+  },
+  "exclude": [
+    "scripts",
+  ]
+}
